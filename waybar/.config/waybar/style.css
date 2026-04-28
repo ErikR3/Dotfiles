@@ -1,0 +1,97 @@
+* {
+    font-family: JetBrainsMono Nerd Font, monospace;
+    font-size: 14px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(15, 20, 22, 0.85);
+    color: #dee3e5;
+    border-radius: 16px;
+    background-clip: padding-box;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: transparent;
+}
+
+/* Pill-stil för alla moduler */
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray {
+    padding: 4px 14px;
+    margin: 4px 4px;
+    background-color: #1b2122;
+    color: #dee3e5;
+    border-radius: 12px;
+}
+
+#clock {
+    color: #84d2e6;
+    font-weight: bold;
+    background-color: #004e5c;
+}
+
+#battery {
+    color: #dee3e5;
+}
+
+#battery.warning {
+    color: #bec5eb;
+}
+
+#battery.critical {
+    color: #b85766;
+    background-color: #2a0c1a;
+}
+
+#battery.charging {
+    color: #84d2e6;
+}
+
+#network {
+    color: #b2cbd2;
+}
+
+#pulseaudio {
+    color: #bec5eb;
+}
+
+#cpu {
+    color: #84d2e6;
+}
+
+#memory {
+    color: #b2cbd2;
+}
+
+#workspaces {
+    margin: 4px 4px;
+}
+
+#workspaces button {
+    padding: 4px 10px;
+    color: #3f484b;
+    background: #1b2122;
+    border-radius: 12px;
+    margin: 0 2px;
+}
+
+#workspaces button.active {
+    color: #0f1416;
+    background-color: #84d2e6;
+    font-weight: bold;
+}
+
+#workspaces button:hover {
+    background: #004e5c;
+    color: #84d2e6;
+}
