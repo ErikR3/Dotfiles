@@ -1,0 +1,71 @@
+* {
+    bg: #0f1416f2;
+    bg-alt: #1b2122;
+    fg: #dee3e5;
+    accent: #84d2e6;
+    urgent: #b85766;
+
+    background-color: transparent;
+    text-color: @fg;
+}
+
+window {
+    background-color: @bg;
+    border-radius: 16px;
+    width: 500px;
+    padding: 16px;
+}
+
+mainbox {
+    background-color: transparent;
+    children: [inputbar, listview];
+    spacing: 12px;
+}
+
+inputbar {
+    background-color: @bg-alt;
+    border-radius: 12px;
+    padding: 10px 16px;
+    children: [prompt, entry];
+}
+
+prompt {
+    background-color: transparent;
+    text-color: @accent;
+    padding: 0 8px 0 0;
+}
+
+entry {
+    background-color: transparent;
+    text-color: @fg;
+}
+
+listview {
+    background-color: transparent;
+    lines: 8;
+    columns: 1;
+    spacing: 4px;
+}
+
+element {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 8px 12px;
+    spacing: 12px;
+    children: [element-icon, element-text];
+}
+
+element selected {
+    background-color: @accent;
+    text-color: @bg;
+}
+
+element-icon {
+    size: 28px;
+    background-color: transparent;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}

@@ -1,0 +1,11 @@
+configuration {
+    modi: "drun";
+    display-drun: "";
+    show-icons: true;
+    icon-theme: "Papirus";
+    drun-display-format: "{name}";
+    disable-history: false;
+    font: "JetBrainsMono Nerd Font 13";
+}
+
+@theme "~/.config/rofi/theme.rasi"
