@@ -1,0 +1,34 @@
+{
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-margin-top": 10,
+  "control-center-margin-bottom": 10,
+  "control-center-margin-right": 10,
+  "notification-icon-size": 64,
+  "timeout": 5,
+  "timeout-low": 3,
+  "timeout-critical": 0,
+  "fit-to-screen": false,
+  "control-center-width": 320,
+  "notification-window-width": 380,
+  "keyboard-shortcuts": true,
+  "transition-time": 200,
+  "hide-on-clear": false,
+  "hide-on-action": true,
+  "widgets": [
+    "title",
+    "dnd",
+    "notifications"
+  ],
+  "widget-config": {
+    "title": {
+      "text": "Notiser",
+      "clear-all-button": true,
+      "button-text": "Rensa"
+    },
+    "dnd": {
+      "text": "Stör ej"
+    }
+  }
+}

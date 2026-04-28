@@ -1,0 +1,108 @@
+* {
+  font-family: "JetBrains Mono Nerd Font", monospace;
+  font-size: 16px;
+  transition: none;
+}
+
+/* Popup-notis */
+.notification-row {
+  outline: none;
+  margin: 8px 10px;
+  min-height: 0;
+}
+
+.notification {
+  background: #0f1416;
+  border: 1px solid #1b2122;
+  border-left: 3px solid #84d2e6;
+  border-radius: 10px;
+  padding: 16px 14px 12px 14px;
+  box-shadow: none;
+}
+
+.notification.critical {
+  border-left-color: #b85766;
+}
+
+.notification-content {
+  background: transparent;
+  padding: 0;
+}
+
+.notification-default-action {
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.notification-default-action:hover {
+  background: #1b2122;
+}
+
+.summary {
+  color: #84d2e6;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.time {
+  color: #3f484b;
+  font-size: 14px;
+}
+
+.body {
+  color: #dee3e5;
+  font-size: 14px;
+}
+
+.app-name {
+  color: #b2cbd2;
+  font-size: 14px;
+}
+
+/* Notification center panel */
+.control-center {
+  background: #0f1416;
+  border: 1px solid #1b2122;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 10px;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.notification-group-headers {
+  color: #84d2e6;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}
+
+/* Knappar i panelen */
+.widget-buttons-grid > flowboxchild > button {
+  background: #1b2122;
+  border: 1px solid #1b2122;
+  border-radius: 6px;
+  color: #dee3e5;
+  padding: 8px;
+}
+
+.widget-buttons-grid > flowboxchild > button:hover {
+  background: #004e5c;
+  border-color: #84d2e6;
+  color: #84d2e6;
+}
+
+/* Rensa-knapp */
+.close-button {
+  background: transparent;
+  border: none;
+  color: #3f484b;
+}
+
+.close-button:hover {
+  color: #b85766;
+  background: transparent;
+}
